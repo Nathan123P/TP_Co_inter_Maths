@@ -20,7 +20,7 @@ jeSuisUneVariable2 = "Coucou"
 jeSuisUneVariableTableauBoleen1 = True
 
 #Une variable peut contenir un booleen
-jeSuisUneVariableBollen2 = 3.14
+jeSuisUneVariableBolleen2 = 3.14
 
 #Une variable peut contenir un tableau et ce tableau ^peut contenir une variable, un boleen, un tableau
 jeSuisUneVariableTableau1 = [1, "Eleve1", True, ["Eleve2, 12, 1.2, True"] ]
