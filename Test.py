@@ -13,6 +13,7 @@ jeSuisUneVariable0 = 11
 print("La valeur est : " + str(jeSuisUneVariable0))
 
 
+
 #Une variable peut contenir une chaine de caractere 
 jeSuisUneVariable2 = "Coucou"
 

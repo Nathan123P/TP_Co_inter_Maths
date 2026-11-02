@@ -5,3 +5,4 @@ for i in range :
     total = n + temperature
 moyenne = total/31
 print("La moyenne est de "+ str(moyenne))
+
