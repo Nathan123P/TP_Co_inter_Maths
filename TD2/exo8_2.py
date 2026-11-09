@@ -1,19 +1,15 @@
-from pylab import*
-xlim(-5,5,1)
-ylim(-50,50,1)
-liste_x=[]
-liste_y=[]
-for i in range (250):
-    x = -5+0.02*i
-    y=1/x
-    liste_x.append(x)
-    liste_y.append(y)
-
-for i in range (250):
-    x = 0.02+0.02*i
-    y=1/x
-    liste_x.append(x)
-    liste_y.append(y)
-    
-    plot(liste_x,liste_y,'k')
+from pylab import *
+import numpy as np
+x1 = np.linspace(-5, -0.01, 250)
+x2 = np.linspace(0.01, 5, 250)
+y1 = 1 / x1
+y2 = 1 / x2
+plot(x1, y1, 'r-', linewidth=2, label='f(x) = 1/x')
+plot(x2, y2, 'r-', linewidth=2)
+xlabel('x')
+ylabel('y')
+xlim(-6, 6)
+ylim(-10, 10)
+grid(True)
+legend()
 show()

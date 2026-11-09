@@ -1,12 +1,10 @@
-from pylab import*
-xlim(-3,3,1)
-ylim(-30,30,5)
-liste_x=[]
-liste_y=[]
-for i in range (100):
-    x = -3+0.006*i
-    y=x**3
-    liste_x.append(x)
-    liste_y.append(y)
-    plot(liste_x,liste_y,'k')
+from pylab import *
+import numpy as np
+x = np.linspace(-3, 3, 100)
+y = x**3  
+plot(x, y, 'b-', linewidth=2, label='f(x) = x^3')
+xlabel('x')
+ylabel('y')
+grid(True)
+legend()
 show()

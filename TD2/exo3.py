@@ -1,8 +1,10 @@
 from pylab import *
+listex = []
+listey = []
+for x in range(5, 15):
+    listex.append(x)
+    listey.append(3)
+plot(listex, listey, '.k')
 xlim(0, 20)
-ylim(2, 4)
-y=3
-for i in range(10):
-    x=5+i
-    plot(x,y,'ob')
+ylim(2.0, 4.0)
 show()
